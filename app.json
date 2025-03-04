@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NotificationApp",
-    "slug": "NotificationApp",
+    "slug": "notificationdemo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hiten16.notificationdemo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9050c8d-cce0-4f9d-97e4-cdc5af68d96b"
+      }
     }
   }
 }
